@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/profile_reg">
+
+  <android.support.design.widget.AppBarLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/app_bar"
+    android:theme="@style/AppTheme.AppBarOverlay">
+
+  </android.support.design.widget.AppBarLayout>
+
+  <ImageView
+    android:id="@android:id/icon"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    />
+
+  <TextView
+    android:id="@+id/name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:text="Name"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="@android:color/white" />
+
+
+  <EditText
+    android:id="@+id/updateName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:maxLines="1"
+    android:textColor="@color/apptheme_color">
+
+
+    <requestFocus />
+  </EditText>
+
+
+  <TextView
+    android:id="@+id/userName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:text="User Name"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="@android:color/white" />
+
+
+  <EditText
+    android:id="@+id/updateUserName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:maxLines="1"
+    android:textColor="@color/apptheme_color" />
+
+  <TextView
+    android:id="@+id/email"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:text="Email"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="@android:color/white" />
+
+  <EditText
+    android:id="@+id/updateEmail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:inputType="textEmailAddress"
+    android:maxLines="1"
+    android:textColor="@color/apptheme_color" />
+    <!--
+    <Button android:text="Change your profile pic"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_updatePhoto" />
+     -->
+
+  <Button
+    android:id="@+id/btn_updateProfile"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="UPDATE YOUR PROFILE"
+    android:textColor="@color/colorBar" />
+</LinearLayout>

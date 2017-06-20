@@ -1,0 +1,15 @@
+    <resources>
+    <string name="app_name">MusiFly</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="edit_message">Enter Email Address</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity_new_message">Alerts</string>
+    <string name="button_clubber">Enter as a Member</string>
+    <string name="button_host">Enter as a Host</string>
+    <string name="activity_message_uiClubber">Welcome to Clubbers Zone!</string>
+    <string name="activity_message_uiHost">Welcome DJ!</string>
+      <string name="current_score">your score</string>
+      <string name="top_score">Top score</string>
+</resources>

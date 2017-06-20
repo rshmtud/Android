@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.0.1_f07af86047876083fb8365ecd91ab7b59bf9971e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_d3093eed8a04a65051784a8512878a457ab1ef83.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.1_b4e85c7e413d055c7b49013115b42fd649feb5ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rashmi\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.1_6b362f916d1332fc3a32c977429128acb2e85494.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-25.0.1_9a43b3c9f692346f573b66ce7b16f1caad8d3989.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.1_1d97fff6897d8ef7c898fe5d85148dadac6dfd61.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_fa1fe38ea49338ea656f856deef42a4d055c589d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.1_ac138689567532a04b4f747d9ccc8e8eb644eca7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.1_9b5bfa0d12b683779c353058a17a7d9b0a09c510.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_c3159140fe4559d6ab3477a63a9ad6d4034cb316.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\pre-dexed\debug\gson-2.2.4_313aff129984a0a45e086871ec03bfcc02e7284e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.1_d6e929532a41b492dfab6de6ec340da32e564030.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.0.1_e00067d76202e7483ca4fd0cca96939c63573d3d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4700f436ede140fb804204f806c9cc3f08e386f4">
+        <dex dex="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\pre-dexed\debug\com.android.support-gridlayout-v7-25.0.1_ccbb342525cd9ae1a215d01bc08e96737848f902.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rashmi\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.4.0_00767b5ad6599583a6850eabb76acb244eb6ded8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.1_d134925181edf8a17c5082f9349cf4d582f91c37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_08787e4fc680d813702f7a91e56958e7b6fddb74.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_441305da968f8b7b1a98e0c7daddeb43fe05e60b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.1_621ccca0df203658c22824fa18d8970ef58102fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\pre-dexed\debug\com.jakewharton-butterknife-8.4.0_571dc009c6b554d28573da812d00275f06c68a2d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.1_dec409ea961957fda7e3a4111dd81247685cefaf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.0.1_e084f701f6dfa1bc39fc121ec55d5a9af841dc03.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="C:\Users\Rashmi\Desktop\code 31jan\test2\iptk-ws16-17-team-juliett\Android project\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.1_8c2266edd0df70ece0003c79acac89811a3c14d7.jar" />
+    </item>
+
+</items>

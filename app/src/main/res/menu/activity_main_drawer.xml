@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_freeticket"
+            android:icon="@mipmap/freeticket"
+            android:title="Free Tickets"
+             />
+        <item
+            android:id="@+id/nav_myticket"
+            android:icon="@mipmap/myticket"
+            android:title="My Tickets"
+            app:itemIconTint="@android:color/holo_orange_light" />
+        <item
+            android:id="@+id/nav_alert"
+            android:icon="@mipmap/alert"
+            android:title="Alerts" />
+        <item
+            android:id="@+id/nav_hostparty"
+            android:icon="@mipmap/hostparty"
+            android:title="Host Your Own Party" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@mipmap/settings"
+            android:title="View your Profile" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+          <item
+            android:id="@+id/nav_game"
+            android:icon="@mipmap/settings"
+            android:title="Play Me" />
+        </menu>
+    </item>
+
+</menu>

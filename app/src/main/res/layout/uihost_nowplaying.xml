@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/now_playing"
+
+    android:weightSum="1">
+
+
+    <RelativeLayout
+        android:layout_width="381dp"
+        android:layout_height="133dp">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="148dp"
+            app:srcCompat="@drawable/cd_art"
+            android:id="@+id/imageView3"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+
+          android:paddingTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_toRightOf="@+id/imageView3"
+            android:id="@+id/mp3Title"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="33dp"
+            android:textColor="#D66E31" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mp3Duration"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@+id/imageView3"
+            android:layout_below="@+id/mp3Title"
+            android:textColor="#eff5ff" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/imageView3"
+            android:layout_below="@+id/mp3Duration">
+
+            <ImageButton
+                android:layout_width="54dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/prev_button"
+                android:id="@+id/prev_button"
+                android:layout_alignTop="@+id/play_button"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:adjustViewBounds="true"
+                android:layout_alignParentStart="true"
+                android:baselineAlignBottom="false" />
+
+            <!--<ImageButton-->
+                <!--android:layout_width="54dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--app:srcCompat="@drawable/play_button"-->
+                <!--android:id="@+id/play_button"-->
+                <!--android:adjustViewBounds="true"-->
+                <!--android:cropToPadding="true"-->
+                <!--android:elevation="0dp"-->
+                <!--android:scaleType="fitCenter"-->
+                <!--android:background="@android:color/transparent"-->
+                <!--android:layout_marginLeft="0dp"-->
+                <!--android:layout_marginStart="0dp"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_alignParentBottom="true"-->
+                <!--android:layout_toRightOf="@+id/linearLayout"-->
+                <!--android:layout_alignParentStart="true"-->
+                <!--android:layout_toEndOf="@+id/linearLayout"-->
+                <!--android:layout_marginTop="8dp" />-->
+
+          <Button
+            android:id="@+id/play_button"
+            android:layout_width="54dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:background="@drawable/play_button"
+            android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:layout_width="54dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/next_button"
+                android:id="@+id/next_button"
+                android:cropToPadding="true"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:layout_alignTop="@+id/play_button"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:layout_above="@+id/playListNowPlaying"
+        android:progressDrawable="@drawable/orange_scrubber_progress"
+        android:thumb="@drawable/orange_scrubber_control"
+        android:layout_centerHorizontal="true" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+            android:text="Delete Playlist"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnDeletePlaylist"
+            android:textColor="@color/colorBar"
+            android:textSize="12sp"
+            android:layout_gravity="start" />
+
+      <Button
+        android:id="@+id/btnAddSongs"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="Add Songs"
+        android:textColor="@color/colorBar"
+        android:textSize="12sp" />
+
+    </FrameLayout>
+
+  <ListView
+    android:id="@+id/playListNowPlaying"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/seekBar"
+    android:layout_marginTop="30dp"
+    android:layout_weight="0.95"
+    android:divider="@color/apptheme_color"
+    android:dividerHeight="0.5dp" />
+
+
+</LinearLayout>

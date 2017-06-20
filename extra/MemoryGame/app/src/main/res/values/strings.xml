@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Colour Memory</string>
+    <string name="current_score">your score</string>
+    <string name="top_score">Top score</string>
+</resources>

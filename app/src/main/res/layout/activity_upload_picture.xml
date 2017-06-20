@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profile_reg"
+    >
+
+  <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily="sans-serif"
+    android:text="Step 2 : Upload your Pic"
+    android:textColor="@android:color/white"
+    android:textSize="18sp" />
+
+    <ImageView android:id="@android:id/icon"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <!-- <Button android:text="Select your photo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_selectPhoto" /> -->
+
+  <Button
+    android:id="@+id/btn_createAccount"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="CREATE YOUR ACCOUNT"
+    android:textColor="@color/colorBar" />
+
+</LinearLayout>

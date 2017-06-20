@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profile_reg"
+    android:orientation="vertical">
+
+  <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily="sans-serif"
+    android:paddingBottom="8dp"
+    android:text="Enter your Details"
+    android:textColor="@android:color/holo_green_light"
+    android:textSize="18sp" />
+
+  <TextView
+    android:id="@+id/name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:text="Name"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="@android:color/white" />
+
+
+  <EditText
+    android:id="@+id/editName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:maxLines="1"
+    android:textColor="@color/apptheme_color">
+
+
+    <requestFocus />
+  </EditText>
+
+
+  <TextView
+    android:id="@+id/userName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:text="User Name"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="@android:color/white" />
+
+
+  <EditText
+    android:id="@+id/editUserName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:maxLines="1"
+    android:textColor="@color/apptheme_color" />
+
+
+  <TextView
+    android:id="@+id/email"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:text="Email"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="@android:color/white" />
+
+  <EditText
+    android:id="@+id/editEmail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:inputType="textEmailAddress"
+    android:maxLines="1"
+    android:textColor="@color/apptheme_color" />
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="NEXT"
+        android:textColor="@color/colorBar" />
+
+
+      <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/btnNext"
+        android:layout_toRightOf="@+id/btnNext"
+        android:text="Cancel"
+        android:textColor="@color/colorBar" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+

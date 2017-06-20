@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#494949</color>
+    <color name="colorPrimaryDark">#4b4b4b</color>
+    <color name="colorAccent">#acacac</color>
+    <color name="colorBar">#ec6c0b</color>
+    <color name="colorHeading">#a1d1ee</color>
+   <color name="apptheme_color">#ec6c0b</color>
+  <color name="global_color_primary_light">#f5f5f5</color>
+    <color name="orange_color">#ec6c0b</color>
+
+
+</resources>

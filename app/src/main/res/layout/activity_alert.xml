@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/side_nav_bar"
+    android:orientation="vertical">
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="We often send notifications about discounts, updates and even free stuff. They will show up here when you open them."
+        android:fontFamily="sans-serif"
+        android:textSize="24sp"
+        android:textColor="#893632" />
+
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:orientation="vertical" android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/now_playing"
+
+  android:weightSum="1">
+
+
+  <RelativeLayout
+    android:layout_width="381dp"
+    android:layout_height="133dp">
+
+
+    <ImageView
+      android:id="@+id/imageView3"
+      android:layout_width="wrap_content"
+      android:layout_height="148dp"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:paddingTop="5dp"
+
+      app:srcCompat="@drawable/cd_art" />
+
+    <TextView
+      android:id="@+id/mp3TitleNP"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="33dp"
+      android:layout_toRightOf="@+id/imageView3"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:textColor="#D66E31" />
+
+    <TextView
+      android:id="@+id/mp3DurationNP"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/mp3TitleNP"
+      android:layout_centerHorizontal="true"
+      android:layout_toRightOf="@+id/imageView3"
+      android:textColor="#eff5ff" />
+
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_below="@+id/mp3Duration"
+      android:layout_toRightOf="@+id/imageView3"
+      android:orientation="horizontal">
+
+      <!--<ImageButton-->
+      <!--android:layout_width="54dp"-->
+      <!--android:layout_height="wrap_content"-->
+      <!--app:srcCompat="@drawable/play_button"-->
+      <!--android:id="@+id/play_button"-->
+      <!--android:adjustViewBounds="true"-->
+      <!--android:cropToPadding="true"-->
+      <!--android:elevation="0dp"-->
+      <!--android:scaleType="fitCenter"-->
+      <!--android:background="@android:color/transparent"-->
+      <!--android:layout_marginLeft="0dp"-->
+      <!--android:layout_marginStart="0dp"-->
+      <!--android:layout_alignParentLeft="true"-->
+      <!--android:layout_alignParentBottom="true"-->
+      <!--android:layout_toRightOf="@+id/linearLayout"-->
+      <!--android:layout_alignParentStart="true"-->
+      <!--android:layout_toEndOf="@+id/linearLayout"-->
+      <!--android:layout_marginTop="8dp" />-->
+
+
+    </LinearLayout>
+
+    <Button
+      android:id="@+id/btnAddSongs"
+      android:layout_width="115dp"
+      android:layout_height="wrap_content"
+      android:layout_gravity="end"
+      android:text="Add Songs"
+      android:textColor="@color/colorBar"
+      android:textSize="12sp"
+      android:layout_alignBaseline="@+id/mp3DurationNP"
+      android:layout_alignBottom="@+id/mp3DurationNP"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentEnd="true"
+      android:layout_marginRight="37dp"
+      android:layout_marginEnd="37dp" />
+
+
+  </RelativeLayout>
+
+
+  <ListView
+    android:id="@+id/playListClubber"
+    android:layout_width="match_parent"
+    android:choiceMode="singleChoice"
+    android:divider="#242424"
+    android:dividerHeight="0.5dp"
+    android:listSelector="@color/colorBar"
+    android:layout_height="match_parent" />
+</LinearLayout>
